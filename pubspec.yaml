@@ -39,15 +39,23 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
+  fonts:
+       - family: Lato
+         fonts:
+           - asset: fonts/lato-light.ttf
+           - asset: fonts/Lato-Bold.ttf
+             style: normal
+             weight: 200
+       - family: Roboto
+         fonts:
+           - asset: fonts/Roboto-Bold.ttf
+           
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/nav_header_backgournd.png
+    - assets/girlbg.jpg
+    - assets/circle-outline.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
